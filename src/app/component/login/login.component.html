@@ -1,0 +1,31 @@
+<section class="demo">
+    <div class="row pt-5">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+            <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+
+                <h4 class="text-center text-white p-2 bg-primary">Login Form</h4>
+                <div class="card-body">
+                    <form class="user">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">User Name</label>
+                            <input type="email" name="email" [(ngModel)]="email" class="form-control" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" name="password" [(ngModel)]="password" class="form-control"
+                                name="password">
+                        </div>
+                        <div class="p-2 text-center">
+                            <button type="submit" (click)="onLogin()" class="btn btn-primary">Login</button>&nbsp;
+                            <button type="submit" class="btn btn-danger">Cancel</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</section>

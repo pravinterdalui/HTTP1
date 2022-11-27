@@ -1,0 +1,103 @@
+<app-header></app-header>
+<section class="pt-2">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="container">
+
+        <div class="card">
+          <div class="card-header h4 text-center text-primary bg-warning">
+            User Form
+          </div>
+          <div class="card-body">
+            <form [formGroup]="userForm" class="row g-3">
+              <div class="col-md-12">
+                <label class="form-label">Name</label>
+                <input type="text" formControlName="name" class="form-control">
+                <div *ngIf="f['name'].touched && f['name'].invalid" class="text text-danger">
+                  <div *ngIf="f['name'].errors && f['name'].errors['required']">Name is required.</div>
+                  <div *ngIf="f['name'].errors && f['name'].errors['minlength']">Name should be 3 character.</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">Mobile No</label>
+                <input type="text" formControlName="mobile" class="form-control">
+                <div *ngIf="f['mobile'].touched && f['mobile'].invalid" class="text text-danger">
+                  <div *ngIf="f['mobile'].errors && f['mobile'].errors['required']">Mobile Number is required.</div>
+                  <div *ngIf="f['mobile'].errors && f['mobile'].errors['minlength']">Mobile Number should be 10
+                    character.</div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label class="form-label">Address</label>
+                <input type="text" formControlName="address" class="form-control">
+                <div *ngIf="f['address'].touched && f['address'].invalid" class="text text-danger">
+                  <div *ngIf="f['address'].errors && f['address'].errors['required']">Address required.</div>
+
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Skills</label>
+                <input type="text" formControlName="skills" class="form-control">
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Hobbies</label>
+                <input type="text" formControlName="hobbies" class="form-control">
+              </div>
+
+              <div class="col-12">
+                <div class="text-center">
+                  <button type="submit" (click)="SubmitUserRecords()" [disabled]="disableSubmit"
+                    class="btn btn-primary">Submit</button>&nbsp;
+                  <button class="btn btn-warning" (click)="updateUserRecords()">Update</button>
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</section>
+
+<section class="pt-5">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <h4 class="text-center text-white p-2" style="background-color:rebeccapurple;">User Information</h4>
+      <div class="table-responsive-sm">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">Address</th>
+              <th scope="col">Skills</th>
+              <th scope="col">Hobbies</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of userCredentials">
+              <td>{{user.name}}</td>
+              <td>{{user.mobile}}</td>
+              <td>{{user.address}}</td>
+              <td>{{user.skills}}</td>
+              <td>{{user.hobbies}}</td>
+              <td><button class="btn btn-success btn-sm" (click)="EditRecords(user)">Edit</button> &nbsp;
+                <button class="btn btn-danger btn-sm" (click)="deleteRecords(user)">Delete</button>
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+</section>

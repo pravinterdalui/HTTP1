@@ -1,0 +1,246 @@
+{
+  "packages": [
+    {
+      "from": "mumbai",
+      "to": "goa",
+      "duration": "6N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 5,
+      "Price": 50000,
+      "id": 1
+    },
+    {
+      "from": "leh",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 2
+    },
+    {
+      "from": "mumbai",
+      "to": "goa",
+      "duration": "6N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 5,
+      "Price": 50000,
+      "id": 3
+    },
+    {
+      "from": "mumbai",
+      "to": "dubai",
+      "duration": "6N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 5,
+      "Price": 80000,
+      "id": 4
+    },
+    {
+      "from": "mumbai",
+      "to": "thailand",
+      "duration": "6N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 5,
+      "Price": 100000,
+      "id": 5
+    },
+    {
+      "from": "delhi",
+      "to": "goa",
+      "duration": "6N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 5,
+      "Price": 80000,
+      "id": 6
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 7
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 8
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 9
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 10
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 11
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 12
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 13
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 14
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 15
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 16
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 17
+    },
+    {
+      "from": "chennai",
+      "to": "delhi",
+      "duration": "10N",
+      "flights": 1,
+      "hotel": 2,
+      "Activities": 3,
+      "Price": 75000,
+      "id": 18
+    }
+  ],
+  "users": [
+    {
+      "name": "Sagar Pawar",
+      "mobile": "9856782345",
+      "address": "Pune",
+      "skills": "Java Developer",
+      "hobbies": "Reading",
+      "id": 7
+    },
+    {
+      "name": "Rohit Patil",
+      "mobile": "9922275521",
+      "address": "Mumbai",
+      "skills": "Tester",
+      "hobbies": "Writing",
+      "id": 8
+    },
+    {
+      "name": "Rahul Sawant",
+      "mobile": "7854986754",
+      "address": "Kolhapur",
+      "skills": "React Developer",
+      "hobbies": "Dancing",
+      "id": 9
+    },
+    {
+      "name": "Avinash Kadam",
+      "mobile": "9023894567",
+      "address": "Satara",
+      "skills": "Angular Developer",
+      "hobbies": "Reading",
+      "id": 10
+    },
+    {
+      "name": "Umesh Shinde",
+      "mobile": "8934659023",
+      "address": "Kolhapur",
+      "skills": "Andriod Developer",
+      "hobbies": "Swimming",
+      "id": 11
+    },
+    {
+      "name": "Prakash Kamble",
+      "mobile": "8709213456",
+      "address": "Beed",
+      "skills": "UI Developer",
+      "hobbies": "Writing",
+      "id": 12
+    }
+  ],
+  "students": [
+    {
+      "fname": "Akshay",
+      "Location": "pune",
+      "id": 1
+    },
+    {
+      "fname": "aditya",
+      "Location": "pune",
+      "id": 2
+    }
+  ]
+}
